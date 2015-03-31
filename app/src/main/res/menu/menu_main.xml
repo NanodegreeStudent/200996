@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manai_saif.gc_org_app.MainActivity">
+    <item
+        android:id="@+id/action_menu"
+        android:title="Menu"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_maj"
+                android:title="Mettre à jour" />
+            <item
+                android:id="@+id/menu_peu_importe1"
+                android:title="Peu Importe 1" />
+            <item
+                android:id="@+id/menu_peu_importe2"
+                android:title="Peu Importe 2" />
+        </menu>
+    </item>
+</menu>

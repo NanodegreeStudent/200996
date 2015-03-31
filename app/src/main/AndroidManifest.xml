@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manai_saif.gc_org_app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="TicActivity"
+            android:label="TicActivity">
+        </activity>
+        <activity
+            android:name="IgcAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="IgcContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+        <activity
+            android:name="ImcAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="ImcContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+        <activity
+            android:name="IacAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="IacContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+        <activity
+            android:name="SecAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="SecContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+        <activity
+            android:name="NetAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="NetContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+        <activity
+            android:name="SigAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="SigContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+        <activity
+            android:name="GhAbout"
+            android:label="@string/title_activity_igc_about">
+        </activity>
+        <activity
+            android:name="GhContact"
+            android:label="@string/title_activity_igc_contact">
+        </activity>
+
+    </application>
+
+</manifest>

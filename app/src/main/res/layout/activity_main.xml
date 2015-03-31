@@ -1,0 +1,119 @@
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:weightSum="1"
+    android:background="@drawable/wall">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tic_imageButton"
+                    android:src="@drawable/tic2"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton2"
+                    android:src="@drawable/cult"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton3"
+                    android:src="@drawable/aero"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/bio"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton5"
+                    android:src="@drawable/tech"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.34"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageButton6"
+                    android:src="@drawable/ic_developpement"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
